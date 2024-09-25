@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Wavyr
+Wavyr is a fun little project made my Meklen. Wavyr is a online webshop, where users can make their own little shops, but more advancded for free. This project is still being made and in beta.
+## Features
 
-Currently, two official plugins are available:
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contributing
 
-## Expanding the ESLint configuration
+Contributions are always welcome!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+See [`contributing.md`](https://github.com/m3klen/Wavyr/blob/main/CONTRIBUTING.md) for ways to get started.
 
-- Configure the top-level `parserOptions` property like this:
+Please adhere to this project's `code of conduct`.
+## Deployment
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+To deploy this project run
+
+```bash
+  npm run deploy
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+To build this project run
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+  npm build
 ```
+
+To install this builds required node modules
+
+```bash
+  npm i --safe --force
+```
+
+
+## Feedback
+
+If you have any feedback, please reach out to me on discord at [m3klen](https://discord.com/users/799947770014072852)
+## Authors
+
+- [@m3klen](https://github.com/m3klen)
+
+
+## Roadmap
+
+- ...
+"# Wavyr" 
